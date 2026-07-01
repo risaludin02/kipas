@@ -38,6 +38,9 @@
     .kiri { background: #2ecc71; color: #fff; }
     .stop { background: #e74c3c;  color: #fff; }
     .auto { background: #2ecc71; color: #fff; }
+
+    .tele{max-height : 300px;
+          overflow -y : auto;}
       
     #status { font-weight: bold; }
     .grid {
