@@ -1,4 +1,4 @@
-// kipas
+
 <html lang="id">
 <head>
   <meta charset="utf-8" />
@@ -15,7 +15,7 @@
     }
     h2 { text-align: center; margin-bottom: 20px; }
     .card {
-      background: #fff;
+      background: #fff;;
       border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.08);
       padding: 15px;
