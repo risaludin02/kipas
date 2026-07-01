@@ -8,7 +8,8 @@
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background: #f5f7fb;
+      background: #2a9b90;
+      background: linear-gradient(90deg, rgba(42, 155, 144, 0.36) 0%, rgba(87, 87, 199, 0.96) 96%, rgba(237, 221, 83, 1) 100%);
       color: #222;
       margin: 20px;
     }
@@ -50,7 +51,7 @@
 </head>
 
 <body>
-  <h2>kipas ruang operator</h2>
+  <h2>KIPAS RUANG OPERATOR</h2>
 
   <div class="card">
     <strong>Koneksi</strong><br>
@@ -60,7 +61,7 @@
   </div>
 
   <div class="card">
-    <strong>Kontrol (sesuai Blynk)</strong><br>
+    <strong>KONTROL</strong><br>
     <button id="off" class="off">off</button>
     <button id="speed1" class="speed1">speed1</button>
     <button id="speed2" class="speed2">speed2</button>
