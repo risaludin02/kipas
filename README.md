@@ -33,6 +33,10 @@
     .off { background: #e74c3c; color: #fff; }
     .speed2 { background: #2ecc71; color: #fff; }
     .speed3 { background: #2ecc71; color: #fff; }
+    .kanan { background: #2ecc71; color: #fff; }
+    .kiri { background: #2ecc71; color: #fff; }
+    .stop { background: #e74c3c;  color: #fff; }
+    .auto { background: #2ecc71; color: #fff; }
       
     #status { font-weight: bold; }
     .grid {
@@ -61,6 +65,10 @@
     <button id="speed1" class="speed1">speed1</button>
     <button id="speed2" class="speed2">speed2</button>
     <button id="speed3" class="speed3">speed3</button>
+    <button id="kanan" class="kanan">noleh kanan</button>
+    <button id="kiri" class="kiri">noleh kiri</button>
+    <button id="stop" class="stop">stop</button>
+    <button id="auto" class="auto">tolah toleh</button>
   </div>
 
 
@@ -125,6 +133,10 @@
   document.getElementById("off").addEventListener("click", () => publishCmd("status_relay", "0"));
   document.getElementById("speed2").addEventListener("click", () => publishCmd("status_relay", "2"));
   document.getElementById("speed3").addEventListener("click", () => publishCmd("status_relay", "3"));
+  document.getElementById("kanan").addEventListener("click", () => publishCmd("my_servo", 1));
+  document.getElementById("kiri").addEventListener("click", () => publishCmd("my_servo", 2));
+  document.getElementById("stop").addEventListener("click", () => publishCmd("my_servo", 0));
+  document.getElementById("auto").addEventListener("click", () => publishCmd("my_servo", 3));
 </script>
 </body>
 </html>
