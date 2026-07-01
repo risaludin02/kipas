@@ -64,7 +64,7 @@
     <button id="off" class="off">off</button>
     <button id="speed1" class="speed1">speed1</button>
     <button id="speed2" class="speed2">speed2</button>
-    <button id="speed3" class="speed3">speed3</button>
+    <button id="speed3" class="speed3">speed3</button><br>
     <button id="kanan" class="kanan">noleh kanan</button>
     <button id="kiri" class="kiri">noleh kiri</button>
     <button id="stop" class="stop">stop</button>
